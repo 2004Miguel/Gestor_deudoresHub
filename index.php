@@ -8,15 +8,13 @@
 <body>
     <header>
         <h1>Bien venido</h1>
-        <p>Busque información del deudor ingresando el nombre</p>
     </header>
-
-    <main>
-        <form acition="resultado.php" method="post">
-            <input type="text"></input>
-            <button  type="submit" name="btnEnviar" id="btnEnviar"><a href="resultado.php" target="_blank"></a>Click para buscar</button>
-        </form>
-    </main>
+    <form action="">
+        <label for="nombre_deudor"></label>
+        <span>Nombre del deudor</span>
+        <input name="nombre_deudor" id="nombre_deudor" type="text">
+        <input type="submit">
+    </form>
     
 </body>
 </html>
